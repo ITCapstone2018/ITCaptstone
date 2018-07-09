@@ -1,7 +1,5 @@
 /*!
-* Wireframe Pingendo template (https://templates.pingendo.com)
-* Based on: Bootstrap v4.0.0 (https://getbootstrap.com)
-* Copyright 2014-2018 Pingendo (https://pingendo.com)
+* Based on Bootstrap v4.0.0 (https://getbootstrap.com) 
 */
  
 // Options
@@ -21,47 +19,37 @@ $enable-print-styles:       true;
 // Colors
 
 $theme-colors: (
-  primary: #cdcdcd,
-  secondary: #b0b0b0,
-  light: #eaeaea,
-  dark: #555555,
-  info: #8e8e8e,
+  primary: #20bf6b,
+  secondary: #273c75,
+  light: #f3f3f3,
+  dark: #151515,
+  info: #b8e994,
   success: #28a745,
   warning: #ffc107,
   danger: #dc3545
 );
 
-$body-bg: #20bf6b;
-
-
-
-
-$body-color: #f5f6fa;
+$body-bg: white;
+$body-color: #20bf6b;
 
 
 
 $body-color-inverse: invert($body-color) !default;
-$link-color: #8e8e8e;
-
-
+$link-color: #20bf6b;
 
 
 // Fonts
 $font-family-base: Roboto;
 
-$headings-font-family: $font-family-base;
+$headings-font-family: Roboto;
+
 $display-font-family: $font-family-base;
 $font-weight-normal: 200;
 $headings-font-weight: 200;
 $lead-font-size:   1.30rem;
 
+$spacer: 1.5rem;
 
-
-
-
-$border-radius: 1rem;
-$border-radius-lg: $border-radius * 1.2;
-$border-radius-sm: $border-radius * .8;
 @import 'bootstrap-4.0.0';
 
  
@@ -69,12 +57,10 @@ html,body {
    height:100%;
 }
 
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
 .cover {
 	min-height:100%;
+  display:flex;
+  align-items:center
 }
 
 
