@@ -1,0 +1,21 @@
+/* remove info link top bar */
+
+#navbar2SupportedContent > ul > li:nth-child(1) > a
+{
+	display: none;
+}
+
+/* remove help link top bar */
+
+#navbar2SupportedContent > ul > li:nth-child(2) > a
+{
+	display: none;
+}
+
+/* remove sign in button */
+
+#navbar2SupportedContent > a
+{
+	display: none;
+}
+
